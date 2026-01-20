@@ -1,0 +1,285 @@
+<!DOCTYPE html />
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html">
+
+<title>Portfolio de Maquetaci&oacute;n</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+<meta name="description" content="Portfolio de Maquetación by Eva">
+
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>-->
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<!--<script src="js/top.js"></script>-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<!--<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body data-bs-theme="light" id="body">
+	<header>
+		<div class="container">
+			<a href="portfolio-index.html" aria-label="Portfolio Eva - Inicio" class="logo">
+				<img src="img/logo-eva.png" alt="Portfolio Eva"/>
+			</a>
+			<span class="h1 fascinate-inline-regular">Portfolio de Maquetaci&oacute;n</span>
+			<div class="toggle__wrapper">
+				<input type="radio" name="theme" id="light" checked="checked" />
+				<input type="radio" name="theme" id="dark" />
+				<span class="toggle__background"></span>
+				<span class="toggle__button"></span>
+			</div>
+		</div>
+		
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid container">
+				<a class="navbar-brand" href="#">Men&uacute;</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="portfolio-index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="info.html">Info</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Dropdown
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Dropdown 2
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Action 2</a></li>
+								<li><a class="dropdown-item" href="#">Another action 2</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Something else here 2</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<div class="container">
+			<div class="space"></div>
+			<h1 class="fascinate-inline-regular">Ejemplos con Bootstrap:</h1>
+			<div class="space"></div>
+			
+<!-- Carrusel -->
+			<div id="carouselExampleCaptions" class="carousel slide">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<!--<img src="..." class="d-block w-100" alt="...">-->
+						<svg aria-label="Placeholder: Image cap" class="bd-placeholder-img card-img-top" height="622" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>Some representative placeholder content for the first slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+					<img src="..." class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Second slide label</h5>
+							<p>Some representative placeholder content for the second slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="..." class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Third slide label</h5>
+							<p>Some representative placeholder content for the third slide.</p>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			
+			
+			<div class="space"></div>
+			
+<!-- Cards -->
+	<div class="row">
+		<div class="col-sm-3 col-md-6 col-lg-3 mb-3">
+			<div class="card">
+				<!--<img src="..." class="card-img-top" alt="...">-->
+				<svg aria-label="Placeholder: Image cap" class="bd-placeholder-img card-img-top" height="180" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 col-md-6 mb-3 col-lg-3">
+			<div class="card">
+				<!--<img src="..." class="card-img-top" alt="...">-->
+				<svg aria-label="Placeholder: Image cap" class="bd-placeholder-img card-img-top" height="180" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 col-md-6 mb-3 col-lg-3">
+			<div class="card">
+				<!--<img src="..." class="card-img-top" alt="...">-->
+				<svg aria-label="Placeholder: Image cap" class="bd-placeholder-img card-img-top" height="180" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 col-md-6 mb-3 col-lg-3">
+			<div class="card">
+				<!--<img src="..." class="card-img-top" alt="...">-->
+				<svg aria-label="Placeholder: Image cap" class="bd-placeholder-img card-img-top" height="180" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+				<div class="card-body">
+					<h5 class="card-title">Card title</h5>
+					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					<a href="#" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+<!-- acordeon -->
+			<div class="accordion" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Accordion Item #1
+					</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Accordion Item #2
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							Accordion Item #3
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+			</div>
+
+		
+		</div>
+	</main>
+	
+	
+
+<div class="container">
+
+	<ul>
+		<li>Escaparate de productos 1 (2+2+2)</li>
+		<li>Escaparate de productos 1 (2+2+ bot&oacute;n ver m&aacute;s)</li>
+		<li>Escaparate de productos 2 (carrusel de 1 en 1)</li>
+		<li>Escaparate de productos 3 (carrusel fluido)</li>
+		<li>pesta&ntilde;as</li>
+		<li>Banner</li>
+        <li>Lightbox con fadebox </li>
+        <li>formularios</li>
+        <li>buscador</li>
+        <li>flecha subir arriba </li>
+        <li>Guide line Bootstrap (botones)</li>
+	</ul>
+	<p>Tormenta de ideas:</p>
+    <p>* css con saas     </p>
+    <p>* JavaScrip top y bottom</p>
+    <p>* Cookies???</p>
+    <p>* Google tag manager (dentro del body, top) </p>
+    <p>* Header y main </p>
+    <p>* mobile first </p>
+    <p>* Guide lines (fuente, tama&ntilde;o, colores, enlaces, botontes...) </p>
+    <p>* Efectos de Hover (sombras, aumentar tama&ntilde;o, slide up mostrar bot&oacute;n...) </p>
+    <p>* filtros slider </p>
+    <p>* drop down </p>
+    <p>* tel, email... </p>
+    <p>* efecto de girar una carta??? o mostrar ocultar cosas</p>
+    <p>* pesta&ntilde;as</p>
+    <p>* enlaces a plantillas de office??? </p>
+    <p>&nbsp;  </p>
+	
+</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="js/bottom.js"></script>
+</body>
+</html>
